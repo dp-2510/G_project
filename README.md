@@ -5,7 +5,7 @@
 ### Install
 
 ```bash
-git clone https://github.com/dp-2510/pipeline_rk_vgeneral_phi_v2.git
+git clone https://github.com/dp-2510/G_project.git pipeline_rk_vgeneral_phi_v2
 cd pipeline_rk_vgeneral_phi_v2
 python3 -m venv env
 source env/bin/activate
