@@ -1,0 +1,26 @@
+# Python bytecode cache (auto-generated on import/compile; not source)
+__pycache__/
+*.pyc
+*.pyo
+# virtual environments (never commit an env; commit requirements.txt)
+env*/
+venv/
+.venv/
+# local run output (data, galleries, logs) -- results are per-machine; a data
+# folder of another name is covered by the file patterns
+results*/
+gallery/
+bounce_gen/
+*.log
+run.log
+autotag_*.txt
+band_manifest_*.json
+# not tracked: the figures (pictures/, written by the plot codes; it may also be a
+# link to a figure folder elsewhere), stray data files of codes run outside a
+# data folder, and any PDF
+pictures
+*.npz
+*.pdf
+# OS / editor cruft
+.DS_Store
+._*

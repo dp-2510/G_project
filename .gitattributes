@@ -1,0 +1,4 @@
+# Unix line endings for the scripts on every platform: a Windows checkout with
+# CRLF line endings would break the shell scripts and the Python shebang lines.
+*.sh text eol=lf
+*.py text eol=lf
